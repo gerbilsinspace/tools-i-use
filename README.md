@@ -28,6 +28,14 @@ I use zsh rather than bash, so I can have a shared history over tabs and uses. I
 
 v - vim
 
+### Weather updates on load
+
+At the end of my .zshrc, I add the following line:
+
+`curl "wttr.in/York?format=3"`
+
+This gives me a message of the day saying the current weather report
+
 ## Vim setup
 
 For broadstrokes setup, I use Ultimate Vim, which can be installed using
@@ -46,11 +54,3 @@ I have the following plugins installed for vim:
 * fzf
 * vim-prettier
 * vim-snippets
-
-### Weather updates on load
-
-At the end of my .zshrc, I add the following line:
-
-`curl "wttr.in/York?format=3"`
-
-This gives me a message of the day saying the current weather report
