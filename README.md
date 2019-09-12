@@ -46,3 +46,11 @@ I have the following plugins installed for vim:
 * fzf
 * vim-prettier
 * vim-snippets
+
+### Weather updates on load
+
+At the end of my .zshrc, I add the following line:
+
+`curl "wttr.in/York?format=3"`
+
+This gives me a message of the day saying the current weather report
